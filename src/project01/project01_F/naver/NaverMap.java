@@ -1,10 +1,10 @@
-package project01.naver;
+package project01.project01_F.naver;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 import project01.addressVO.AddressVO;
-import project01.Project01_F;
+import project01.project01_F.Project01_F;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -24,8 +24,8 @@ public class NaverMap implements ActionListener { // Button이 눌렀을 때, �
     //actionPerformed 구현부분이 위도와 경도를 가져오는 부분이다.
     @Override
     public void actionPerformed(ActionEvent e) {
-        String clientId = "yh1oswg56e";
-        String clientSecret = "cXPkfCfTFfgEMajDhSZaP0FPnxy9fwWNr3UfcvpK";
+        String clientId = "";
+        String clientSecret = "";
         AddressVO vo = null;
 
         try {

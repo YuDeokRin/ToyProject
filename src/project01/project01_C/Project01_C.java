@@ -1,4 +1,4 @@
-package project01;
+package project01.project01_C;
 
 /*
 
@@ -20,7 +20,7 @@ public class Project01_C {
 
         //InputSteam을 사용해서 파일 연결을 한다.
         //InputStream 변수 = 경로.class.getResourceAsStream(src <-- file    );
-        InputStream is = project01.Project01_C.class.getResourceAsStream(src);
+        InputStream is = Project01_C.class.getResourceAsStream(src);
 
         //파일 안에 데이터가 있는지 확인 하는 로직
         if (is == null) {

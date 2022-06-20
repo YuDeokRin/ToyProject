@@ -1,4 +1,4 @@
-package project01;
+package project01.project01_E;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -42,8 +42,8 @@ public class Project01_E {
             URL u = new URL(url);
             HttpURLConnection con = (HttpURLConnection)u.openConnection();
             con.setRequestMethod("GET");
-            con.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "yh1oswg56e");
-            con.setRequestProperty("X-NCP-APIGW-API-KEY", "cXPkfCfTFfgEMajDhSZaP0FPnxy9fwWNr3UfcvpK");
+            con.setRequestProperty("X-NCP-APIGW-API-KEY-ID", "{앱 등록 시 발급받은 Client ID");
+            con.setRequestProperty("X-NCP-APIGW-API-KEY", "{앱 등록 시 발급 받은 Client Secret}");
             int responseCode = con.getResponseCode();
             BufferedReader br;
             if(responseCode==200) {

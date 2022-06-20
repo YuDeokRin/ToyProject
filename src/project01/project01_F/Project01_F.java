@@ -1,6 +1,6 @@
-package project01;
+package project01.project01_F;
 
-import project01.naver.NaverMap;
+import project01.project01_F.naver.NaverMap;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package project01;
+package project01.project01_A;
 /**
  *  Gson과 Json의 이해
  *
